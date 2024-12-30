@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.outline {
+    height: 250px;
+    width: 400px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+
+.outline2 {
+    height: 230px;
+    width: 380px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    backdrop-filter: blur(10px);
+}
+
+.timer {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(135deg, #56ab2f, #a8e063);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.buttons button:hover {
+    background: linear-gradient(135deg, #a8e063, #56ab2f);
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
